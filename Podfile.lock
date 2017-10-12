@@ -1,0 +1,253 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GDataXMLNode2 (2.0.1)
+  - GTMNSStringHTMLAdditions (0.2.1)
+  - JingGe_Common (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeAnswerSDK (= 0.0.30)
+    - JingGe_Common/JingGeCommentFundation (= 0.0.30)
+    - JingGe_Common/JingGeCoverController (= 0.0.30)
+    - JingGe_Common/JingGeReaderSDK (= 0.0.30)
+    - JingGe_Common/JingGeUIFundation (= 0.0.30)
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeAnswerSDK (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - JingGe_Common/JingGeCoverController
+    - JingGe_Common/JingGeReaderSDK
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeCommentFundation (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation/JingGeDateWork (= 0.0.30)
+    - JingGe_Common/JingGeCommentFundation/JingGeMacro (= 0.0.30)
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeCommentFundation/JingGeDateWork (0.0.30):
+    - AFNetworking
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeCommentFundation/JingGeMacro (0.0.30):
+    - AFNetworking
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeCoverController (0.0.30):
+    - AFNetworking
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeReaderSDK (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - JingGe_Common/JingGeCoverController
+    - JingGe_Common/JingGeUIFundation
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeUIFundation (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - JingGe_Common/JingGeUIFundation/JingGeBaseUI (= 0.0.30)
+    - JingGe_Common/JingGeUIFundation/JingGeMenuTableView (= 0.0.30)
+    - JingGe_Common/JingGeUIFundation/JingGeViewAnimation (= 0.0.30)
+    - JingGe_Common/JingGeUIFundation/JingGeViewCategory (= 0.0.30)
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeUIFundation/JingGeBaseUI (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeUIFundation/JingGeMenuTableView (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeUIFundation/JingGeViewAnimation (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - JingGe_Common/JingGeUIFundation/JingGeViewCategory (0.0.30):
+    - AFNetworking
+    - JingGe_Common/JingGeCommentFundation
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJExtension
+    - MJRefresh
+    - pop
+    - SDWebImage
+    - TZImagePickerController
+    - UMengAnalytics
+  - KRVideoPlayer (1.0.1)
+  - LKDBHelper (2.4.4):
+    - LKDBHelper/standard (= 2.4.4)
+  - LKDBHelper/standard (2.4.4):
+    - FMDB
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MiPushSDK (2.2.4)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - NSString-HTML (0.0.1)
+  - pop (1.0.10)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TouchXML (0.1)
+  - TZImagePickerController (1.8.3)
+  - UMengAnalytics (4.2.4)
+  - ZFPlayer (2.1.5):
+    - Masonry
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - GDataXMLNode2
+  - GTMNSStringHTMLAdditions (~> 0.2.1)
+  - JingGe_Common (from `http://192.168.50.10/xuxuebo/jinggecommon_for_ios.git`)
+  - KRVideoPlayer
+  - NSString-HTML (~> 0.0.1)
+  - TouchXML (~> 0.1)
+  - ZFPlayer
+  - ZipArchive (~> 1.4.0)
+
+EXTERNAL SOURCES:
+  JingGe_Common:
+    :git: http://192.168.50.10/xuxuebo/jinggecommon_for_ios.git
+
+CHECKOUT OPTIONS:
+  JingGe_Common:
+    :commit: 21b322eaf621df99438ff99923e1046c5cdbe712
+    :git: http://192.168.50.10/xuxuebo/jinggecommon_for_ios.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GDataXMLNode2: 90a3f2cd1f041aa5f43062eec884e0943704bf81
+  GTMNSStringHTMLAdditions: 4bfc402b1b17165360728083156cae0a74ecb308
+  JingGe_Common: dc1fffe46acca1039ed1c50a6898f0e285fd7b2a
+  KRVideoPlayer: 08918da1b99cae35fd4c15b2ec2b49358d4c985f
+  LKDBHelper: cf467ff69aaf1e13bd4964aca3a79881d54c6d14
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MiPushSDK: a00fd49376456a961991b947bc95ef714f7e9534
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NSString-HTML: 0dc0ae9d430d20a96dda961a346fa842fffa8c1f
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TouchXML: 37089088da5e46f0f4a8797d320fbcfed395ab46
+  TZImagePickerController: 8c02d10822404b26c4330cdb79f2e46fb6a61473
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  ZFPlayer: 8a80bf8eb4638b97fbceaefcd3ca9978e9f17c9d
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 524380307d672d3e3c12122f83ea0e3df88740b0
+
+COCOAPODS: 1.2.1

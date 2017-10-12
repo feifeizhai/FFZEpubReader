@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xml:lang="zho" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="386d7de3-be1e-4130-91d8-7b5adcba68f7" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (3.5.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>新能源汽车使用与维护 教材</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="ulbiCy8MLRSAV8Xn2MtQzZ3" playOrder="1">
+      <navLabel>
+        <text>项目一 新能源汽车使用 ................................................................................... 1</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p7"/>
+    </navPoint>
+    <navPoint id="ui6KhfX4gT2q7bGTdOpCM98" playOrder="2">
+      <navLabel>
+        <text>学习目标 .................................................................. 2</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p8"/>
+    </navPoint>
+    <navPoint id="ugj9TOspISscHNlXDj5TdpC" playOrder="3">
+      <navLabel>
+        <text>任务一 新能源汽车高压安全与防护 ............................................ 3</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p9"/>
+    </navPoint>
+    <navPoint id="uGKeEAZY8Bpfxiyss3Cmoi2" playOrder="4">
+      <navLabel>
+        <text>作业准备 .............................................................. 5</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p11"/>
+    </navPoint>
+    <navPoint id="uLBu3KhaJrX4YrqzG7bXJi7" playOrder="5">
+      <navLabel>
+        <text>技能操作 .............................................................. 6</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p12"/>
+    </navPoint>
+    <navPoint id="uEDnFjVx3Px83yE6bWvRqt5" playOrder="6">
+      <navLabel>
+        <text>思考与练习 ............................................................ 7</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p13"/>
+    </navPoint>
+    <navPoint id="uCc5tBI3JI6RtOAvc6LuR4C" playOrder="7">
+      <navLabel>
+        <text>任务二 新能源汽车驾驶与操作 ................................................ 8</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p14"/>
+    </navPoint>
+    <navPoint id="uDq5WDAEelY4gTwKSjLCgn5" playOrder="8">
+      <navLabel>
+        <text>作业准备 ............................................................. 16</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p22"/>
+    </navPoint>
+    <navPoint id="uSZaYqFFYccOKiDhhcXbIF9" playOrder="9">
+      <navLabel>
+        <text>技能操作 ............................................................. 17</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p23"/>
+    </navPoint>
+    <navPoint id="u9hsfIZgrkwk4LaeSynIQG3" playOrder="10">
+      <navLabel>
+        <text>思考与练习 ........................................................... 30</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p36"/>
+    </navPoint>
+    <navPoint id="uBjPE6txoCYMSMf6u9Ao6BA" playOrder="11">
+      <navLabel>
+        <text>任务三 新能源汽车应急处理 ................................................. 31</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p37"/>
+    </navPoint>
+    <navPoint id="u3XgUvmnnhziVVGLBaI4za9" playOrder="12">
+      <navLabel>
+        <text>作业准备 ............................................................. 34</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p40"/>
+    </navPoint>
+    <navPoint id="uQKE6x8N5sVpUzZ6yzVaVW4" playOrder="13">
+      <navLabel>
+        <text>技能操作 ............................................................. 35</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p41"/>
+    </navPoint>
+    <navPoint id="u6mGwKAlmcfHbcPSxxe8k77" playOrder="14">
+      <navLabel>
+        <text>思考与练习 ........................................................... 37</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p43"/>
+    </navPoint>
+    <navPoint id="umOPxX7PNyDdOOUOZetbDcF" playOrder="15">
+      <navLabel>
+        <text>项目二 新能源汽车维护 ................................................................................. 38</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p44"/>
+    </navPoint>
+    <navPoint id="ukBknqZyEU6ttZRNXfXkDK6" playOrder="16">
+      <navLabel>
+        <text>学习目标 ................................................................. 39</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p45"/>
+    </navPoint>
+    <navPoint id="ucXMmXOdXOfAxofuDPjGHb4" playOrder="17">
+      <navLabel>
+        <text>任务一 纯电动汽车维护 ..................................................... 40</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p46"/>
+    </navPoint>
+    <navPoint id="uNQdnNthnHJi6S3IHElDD27" playOrder="18">
+      <navLabel>
+        <text>作业准备 ............................................................. 46</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p52"/>
+    </navPoint>
+    <navPoint id="umSRHwDOMAMylSggHDaTXiC" playOrder="19">
+      <navLabel>
+        <text>技能操作 ............................................................. 51</text>
+      </navLabel>
+      <content src="Text/index_split_000.html#p57"/>
+    </navPoint>
+    <navPoint id="uJILzaCSGGeP7juZfCgRJt3" playOrder="20">
+      <navLabel>
+        <text>作业记录单 ........................................................... 83</text>
+      </navLabel>
+      <content src="Text/index_split_005.html#p89"/>
+    </navPoint>
+    <navPoint id="ud6BAAp3OXvQq9DyDuQOMNC" playOrder="21">
+      <navLabel>
+        <text>思考与练习 ........................................................... 88</text>
+      </navLabel>
+      <content src="Text/index_split_005.html#p94"/>
+    </navPoint>
+    <navPoint id="uVlwDWxh8LRj9FgOP4fzvtE" playOrder="22">
+      <navLabel>
+        <text>任务二 混合动力汽车维护 ................................................... 89</text>
+      </navLabel>
+      <content src="Text/index_split_005.html#p95"/>
+    </navPoint>
+    <navPoint id="uSAPAc524tHR3JCkb8haRT7" playOrder="23">
+      <navLabel>
+        <text>作业准备 ............................................................. 97</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p103"/>
+    </navPoint>
+    <navPoint id="uhAsGfefeIDlbKCR5T4BBdC" playOrder="24">
+      <navLabel>
+        <text>技能操作 ............................................................. 98</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p104"/>
+    </navPoint>
+    <navPoint id="ujczCrCdfQ2nL3gdTuNoOR2" playOrder="25">
+      <navLabel>
+        <text>作业记录单 .......................................................... 127</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p133"/>
+    </navPoint>
+    <navPoint id="uhYcI8HamrxDHJ3jmRZvTJG" playOrder="26">
+      <navLabel>
+        <text>思考与练习 .......................................................... 132</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p138"/>
+    </navPoint>
+    <navPoint id="uhMILh8qIiEIVjcbmsb6Oq4" playOrder="27">
+      <navLabel>
+        <text>项目三 新能源汽车辅助设施使用与维护 ....................................................... 133</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p139"/>
+    </navPoint>
+    <navPoint id="uSjzL8RHI96OOPvQAjwE543" playOrder="28">
+      <navLabel>
+        <text>学习目标 ................................................................ 134</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p140"/>
+    </navPoint>
+    <navPoint id="uGhwdqQKAppSFmW38q7JF85" playOrder="29">
+      <navLabel>
+        <text>任务一 直流充电桩使用和维护 .............................................. 135</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p141"/>
+    </navPoint>
+    <navPoint id="uGwi2gTbZTflEXTnxfdXwTB" playOrder="30">
+      <navLabel>
+        <text>作业准备 ............................................................ 137</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p143"/>
+    </navPoint>
+    <navPoint id="uuKVLU4QLtvkLLQVnqmivx2" playOrder="31">
+      <navLabel>
+        <text>技能操作 ............................................................ 138</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p144"/>
+    </navPoint>
+    <navPoint id="u37G2xkrzvZWfqb58Ggall9" playOrder="32">
+      <navLabel>
+        <text>思考与练习 .......................................................... 143</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p149"/>
+    </navPoint>
+    <navPoint id="utF84eK5kYOxkeM5xiXU2hB" playOrder="33">
+      <navLabel>
+        <text>任务二 交流充电桩使用和维护 .............................................. 145</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p151"/>
+    </navPoint>
+    <navPoint id="uLLFMbeXIWJN7zZcabeq3pB" playOrder="34">
+      <navLabel>
+        <text>作业准备 ............................................................ 147</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p153"/>
+    </navPoint>
+    <navPoint id="uBvtDliUx8PtDx7Jho3luxB" playOrder="35">
+      <navLabel>
+        <text>技能操作 ............................................................ 148</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p154"/>
+    </navPoint>
+    <navPoint id="uepX8eNO7cuSuVpLl4y8ra3" playOrder="36">
+      <navLabel>
+        <text>思考与练习 .......................................................... 151</text>
+      </navLabel>
+      <content src="Text/index_split_007.html#p157"/>
+    </navPoint>
+  </navMap>
+</ncx>

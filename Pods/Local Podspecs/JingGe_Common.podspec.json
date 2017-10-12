@@ -1,0 +1,157 @@
+{
+  "name": "JingGe_Common",
+  "version": "0.0.30",
+  "summary": "A short description of JingGe_Common.",
+  "homepage": "http://192.168.50.10/xuxuebo/jinggecommon_for_ios.git",
+  "license": "MIT",
+  "authors": {
+    "xuxuebo": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://192.168.50.10/xuxuebo/jinggecommon_for_ios.git",
+    "tag": "0.0.30"
+  },
+  "source_files": [
+    "JingGe_Common",
+    "JingGe_Common/**/*.{h,m}"
+  ],
+  "exclude_files": [
+    "JingGe_Common/JingGeUIFundation/**/*.{h,m}",
+    "JingGe_Common/JingGeCommentFundation/**/*.{h,m}",
+    "JingGe_Common/JingGeCoverController/*.{h,m}",
+    "JingGe_Common/JingGeAnswerSDK/**/*.{h,m}",
+    "JingGe_Common/JingGeReaderSDK/**/*.{h,m}"
+  ],
+  "resources": "JingGe_Common/JingGeUIFundation/JingGeBundle.bundle",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "QuartzCore",
+    "SystemConfiguration"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "LKDBHelper": [
+
+    ],
+    "UMengAnalytics": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MiPushSDK": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "pop": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "JingGeUIFundation",
+      "source_files": "JingGe_Common/JingGeUIFundation/**/*.{h,m}",
+      "dependencies": {
+        "JingGe_Common/JingGeCommentFundation": [
+
+        ]
+      },
+      "exclude_files": [
+        "JingGe_Common/JingGeUIFundation/JingGeViewAnimation/**/*.{h,m}",
+        "JingGe_Common/JingGeUIFundation/JingGeBaseUI/**/*.{h,m}",
+        "JingGe_Common/JingGeUIFundation/JingGeMenuTableView/**/*.{h,m}",
+        "JingGe_Common/JingGeUIFundation/JingGeViewCategory/*.{h,m}"
+      ],
+      "subspecs": [
+        {
+          "name": "JingGeViewAnimation",
+          "source_files": "JingGe_Common/JingGeUIFundation/JingGeViewAnimation/**/*.{h,m}"
+        },
+        {
+          "name": "JingGeBaseUI",
+          "source_files": "JingGe_Common/JingGeUIFundation/JingGeBaseUI/**/*.{h,m}"
+        },
+        {
+          "name": "JingGeMenuTableView",
+          "source_files": "JingGe_Common/JingGeUIFundation/JingGeMenuTableView/**/*.{h,m}"
+        },
+        {
+          "name": "JingGeViewCategory",
+          "source_files": "JingGe_Common/JingGeUIFundation/JingGeViewCategory/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "JingGeCommentFundation",
+      "source_files": "JingGe_Common/JingGeCommentFundation/**/*.{h,m}",
+      "exclude_files": [
+        "JingGe_Common/JingGeCommentFundation/JingGeDateWork/*.{h,m}",
+        "JingGe_Common/JingGeCommentFundation/JingGeMacro/*.{h,m}"
+      ],
+      "subspecs": [
+        {
+          "name": "JingGeDateWork",
+          "source_files": "JingGe_Common/JingGeCommentFundation/JingGeDateWork/*.{h,m}"
+        },
+        {
+          "name": "JingGeMacro",
+          "source_files": "JingGe_Common/JingGeCommentFundation/JingGeMacro/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "JingGeReaderSDK",
+      "source_files": "JingGe_Common/JingGeReaderSDK/**/*.{h,m}",
+      "dependencies": {
+        "JingGe_Common/JingGeCommentFundation": [
+
+        ],
+        "JingGe_Common/JingGeUIFundation": [
+
+        ],
+        "JingGe_Common/JingGeCoverController": [
+
+        ]
+      }
+    },
+    {
+      "name": "JingGeCoverController",
+      "source_files": "JingGe_Common/JingGeCoverController/*.{h,m}"
+    },
+    {
+      "name": "JingGeAnswerSDK",
+      "source_files": "JingGe_Common/JingGeAnswerSDK/**/*.{h,m}",
+      "dependencies": {
+        "JingGe_Common/JingGeCommentFundation": [
+
+        ],
+        "JingGe_Common/JingGeCoverController": [
+
+        ],
+        "JingGe_Common/JingGeReaderSDK": [
+
+        ]
+      }
+    }
+  ]
+}

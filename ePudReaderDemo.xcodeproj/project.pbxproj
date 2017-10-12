@@ -1,0 +1,1409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80067ED41F1F09A100116B81 /* DFPShaoNvW5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80067ED31F1F09A100116B81 /* DFPShaoNvW5.ttf */; };
+		80067ED61F1F09AC00116B81 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 80067ED51F1F09AC00116B81 /* SearchWebView.js */; };
+		80067ED81F1F09BD00116B81 /* epubtheme.xml in Resources */ = {isa = PBXBuildFile; fileRef = 80067ED71F1F09BD00116B81 /* epubtheme.xml */; };
+		80067EDB1F1F0A5900116B81 /* JingGeEpubReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EDA1F1F0A5900116B81 /* JingGeEpubReadViewController.m */; };
+		80067EDE1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EDD1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.m */; };
+		80067EE51F1F0BF100116B81 /* JingGeEpubReaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EE41F1F0BF100116B81 /* JingGeEpubReaderConfig.m */; };
+		80067EE81F1F0C0600116B81 /* JingGeEpubParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EE71F1F0C0600116B81 /* JingGeEpubParser.m */; };
+		80067EEB1F1F0C8600116B81 /* JingGeEpubReaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EEA1F1F0C8600116B81 /* JingGeEpubReaderModel.m */; };
+		80067EF01F1F302B00116B81 /* JingGeEpubReaderMarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EEF1F1F302B00116B81 /* JingGeEpubReaderMarkModel.m */; };
+		80067EF41F1F483400116B81 /* 张爱玲作品集.epub in Resources */ = {isa = PBXBuildFile; fileRef = 80067EF31F1F483400116B81 /* 张爱玲作品集.epub */; };
+		80067EF71F1F4B6600116B81 /* JingGeEpubPageWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EF61F1F4B6600116B81 /* JingGeEpubPageWebView.m */; };
+		80067EFA1F204DDC00116B81 /* JingGeEpubReaderControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067EF91F204DDC00116B81 /* JingGeEpubReaderControlView.m */; };
+		80067F011F20546C00116B81 /* JingGeEpubReaderProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80067F001F20546C00116B81 /* JingGeEpubReaderProgressView.m */; };
+		80790D071F02380600840848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80790D061F02380600840848 /* main.m */; };
+		80790D0A1F02380600840848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80790D091F02380600840848 /* AppDelegate.m */; };
+		80790D101F02380600840848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80790D0E1F02380600840848 /* Main.storyboard */; };
+		80790D121F02380600840848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80790D111F02380600840848 /* Assets.xcassets */; };
+		80790D151F02380600840848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80790D131F02380600840848 /* LaunchScreen.storyboard */; };
+		80790D201F02380600840848 /* ePudReaderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80790D1F1F02380600840848 /* ePudReaderDemoTests.m */; };
+		80790D2B1F02380600840848 /* ePudReaderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80790D2A1F02380600840848 /* ePudReaderDemoUITests.m */; };
+		807A6DD41F3D585A0025D2F3 /* 新能源汽车使用与维护.epub in Resources */ = {isa = PBXBuildFile; fileRef = 807A6DD31F3D585A0025D2F3 /* 新能源汽车使用与维护.epub */; };
+		807A6DDE1F3D9D5B0025D2F3 /* 新能源汽车使用与维护(1).epub in Resources */ = {isa = PBXBuildFile; fileRef = 807A6DDD1F3D9D5B0025D2F3 /* 新能源汽车使用与维护(1).epub */; };
+		807A6DE11F3DAF170025D2F3 /* 新能源汽车使用与维护2.epub in Resources */ = {isa = PBXBuildFile; fileRef = 807A6DE01F3DAF170025D2F3 /* 新能源汽车使用与维护2.epub */; };
+		807A6DE31F3DAF200025D2F3 /* 新能源汽车使用与维护1.epub in Resources */ = {isa = PBXBuildFile; fileRef = 807A6DE21F3DAF200025D2F3 /* 新能源汽车使用与维护1.epub */; };
+		8098B0C21F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8098B0C11F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.m */; };
+		8098B0C51F2F15DC005DF74F /* JingGeEpubReaderItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8098B0C41F2F15DC005DF74F /* JingGeEpubReaderItemModel.m */; };
+		8098B0C81F2F1668005DF74F /* JingGeEpubReaderInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8098B0C71F2F1668005DF74F /* JingGeEpubReaderInfoModel.m */; };
+		8098B0CA1F301A08005DF74F /* Bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 8098B0C91F301A07005DF74F /* Bridge.js */; };
+		809F5EFB1F25E5410091F455 /* JingGeEpubReadCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F5EFA1F25E5410091F455 /* JingGeEpubReadCatalogViewController.m */; };
+		809F5EFE1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F5EFD1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.m */; };
+		809F5F001F283E570091F455 /* 测试(1).epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F5EFF1F283E570091F455 /* 测试(1).epub */; };
+		809F5F031F286CF00091F455 /* btn_defaukt_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F011F286CF00091F455 /* btn_defaukt_back@2x.png */; };
+		809F5F041F286CF00091F455 /* btn_defaukt_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F021F286CF00091F455 /* btn_defaukt_back@3x.png */; };
+		809F5F071F2888CC0091F455 /* JFTextPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F5F061F2888CC0091F455 /* JFTextPlayer.m */; };
+		809F5F0A1F2990B60091F455 /* 这些.epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F081F2990B60091F455 /* 这些.epub */; };
+		809F5F0B1F2990B60091F455 /* 为人处世曾国藩.epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F091F2990B60091F455 /* 为人处世曾国藩.epub */; };
+		809F5F0E1F29926A0091F455 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F5F0D1F29926A0091F455 /* TableViewController.m */; };
+		809F5F101F299F080091F455 /* Wei Zhi.epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F0F1F299EF90091F455 /* Wei Zhi.epub */; };
+		809F5F131F29B3810091F455 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F5F121F29B3810091F455 /* PlayerViewController.m */; };
+		809F5F151F29B7A40091F455 /* Wei Zhi1.epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F141F29B7A40091F455 /* Wei Zhi1.epub */; };
+		809F5F181F29C95A0091F455 /* Ni Zhong Yu.epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F5F171F29C95A0091F455 /* Ni Zhong Yu.epub */; };
+		809F76851F4592B90040068D /* 1234456.epub in Resources */ = {isa = PBXBuildFile; fileRef = 809F76841F4592B90040068D /* 1234456.epub */; };
+		80B7497F1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7491E1F3175ED00390F92 /* Contents.json */; };
+		80B749801F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749201F3175ED00390F92 /* Contents.json */; };
+		80B749811F3175EE00390F92 /* G_Battery_Black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749211F3175ED00390F92 /* G_Battery_Black@2x.png */; };
+		80B749821F3175EE00390F92 /* G_Battery_Black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749221F3175ED00390F92 /* G_Battery_Black@3x.png */; };
+		80B749831F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749241F3175ED00390F92 /* Contents.json */; };
+		80B749841F3175EE00390F92 /* read_bar_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749251F3175ED00390F92 /* read_bar_0@2x.png */; };
+		80B749851F3175EE00390F92 /* read_bar_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749261F3175ED00390F92 /* read_bar_0@3x.png */; };
+		80B749861F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749281F3175ED00390F92 /* Contents.json */; };
+		80B749871F3175EE00390F92 /* read_bar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749291F3175ED00390F92 /* read_bar_1@2x.png */; };
+		80B749881F3175EE00390F92 /* read_bar_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7492A1F3175ED00390F92 /* read_bar_1@3x.png */; };
+		80B749891F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7492C1F3175ED00390F92 /* Contents.json */; };
+		80B7498A1F3175EE00390F92 /* read_bar_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7492D1F3175ED00390F92 /* read_bar_2@2x.png */; };
+		80B7498B1F3175EE00390F92 /* read_bar_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7492E1F3175ED00390F92 /* read_bar_2@3x.png */; };
+		80B7498C1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749301F3175ED00390F92 /* Contents.json */; };
+		80B7498D1F3175EE00390F92 /* read_bar_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749311F3175ED00390F92 /* read_bar_3@2x.png */; };
+		80B7498E1F3175EE00390F92 /* read_bar_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749321F3175ED00390F92 /* read_bar_3@3x.png */; };
+		80B7498F1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749341F3175ED00390F92 /* Contents.json */; };
+		80B749901F3175EE00390F92 /* read_bg_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749351F3175ED00390F92 /* read_bg_0@2x.png */; };
+		80B749911F3175EE00390F92 /* read_bg_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749361F3175ED00390F92 /* read_bg_0@3x.png */; };
+		80B749921F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749381F3175ED00390F92 /* Contents.json */; };
+		80B749931F3175EE00390F92 /* RM_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749391F3175ED00390F92 /* RM_0@2x.png */; };
+		80B749941F3175EE00390F92 /* RM_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7493A1F3175ED00390F92 /* RM_0@3x.png */; };
+		80B749951F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7493C1F3175ED00390F92 /* Contents.json */; };
+		80B749961F3175EE00390F92 /* RM_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7493D1F3175ED00390F92 /* RM_1@2x.png */; };
+		80B749971F3175EE00390F92 /* RM_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7493E1F3175ED00390F92 /* RM_1@3x.png */; };
+		80B749981F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749401F3175ED00390F92 /* Contents.json */; };
+		80B749991F3175EE00390F92 /* RM_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749411F3175ED00390F92 /* RM_10@2x.png */; };
+		80B7499A1F3175EE00390F92 /* RM_10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749421F3175ED00390F92 /* RM_10@3x.png */; };
+		80B7499B1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749441F3175ED00390F92 /* Contents.json */; };
+		80B7499C1F3175EE00390F92 /* RM_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749451F3175ED00390F92 /* RM_11@2x.png */; };
+		80B7499D1F3175EE00390F92 /* RM_11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749461F3175ED00390F92 /* RM_11@3x.png */; };
+		80B7499E1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749481F3175ED00390F92 /* Contents.json */; };
+		80B7499F1F3175EE00390F92 /* RM_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749491F3175ED00390F92 /* RM_13@2x.png */; };
+		80B749A01F3175EE00390F92 /* RM_13@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7494A1F3175EE00390F92 /* RM_13@3x.png */; };
+		80B749A11F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7494C1F3175EE00390F92 /* Contents.json */; };
+		80B749A21F3175EE00390F92 /* RM_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7494D1F3175EE00390F92 /* RM_14@2x.png */; };
+		80B749A31F3175EE00390F92 /* RM_14@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7494E1F3175EE00390F92 /* RM_14@3x.png */; };
+		80B749A41F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749501F3175EE00390F92 /* Contents.json */; };
+		80B749A51F3175EE00390F92 /* RM_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749511F3175EE00390F92 /* RM_15@2x.png */; };
+		80B749A61F3175EE00390F92 /* RM_15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749521F3175EE00390F92 /* RM_15@3x.png */; };
+		80B749A71F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749541F3175EE00390F92 /* Contents.json */; };
+		80B749A81F3175EE00390F92 /* RM_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749551F3175EE00390F92 /* RM_16@2x.png */; };
+		80B749A91F3175EE00390F92 /* RM_16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749561F3175EE00390F92 /* RM_16@3x.png */; };
+		80B749AA1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749581F3175EE00390F92 /* Contents.json */; };
+		80B749AB1F3175EE00390F92 /* RM_17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749591F3175EE00390F92 /* RM_17@2x.png */; };
+		80B749AC1F3175EE00390F92 /* RM_17@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7495A1F3175EE00390F92 /* RM_17@3x.png */; };
+		80B749AD1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7495C1F3175EE00390F92 /* Contents.json */; };
+		80B749AE1F3175EE00390F92 /* RM_18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7495D1F3175EE00390F92 /* RM_18@2x.png */; };
+		80B749AF1F3175EE00390F92 /* RM_18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7495E1F3175EE00390F92 /* RM_18@3x.png */; };
+		80B749B01F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749601F3175EE00390F92 /* Contents.json */; };
+		80B749B11F3175EE00390F92 /* RM_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749611F3175EE00390F92 /* RM_2@2x.png */; };
+		80B749B21F3175EE00390F92 /* RM_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749621F3175EE00390F92 /* RM_2@3x.png */; };
+		80B749B31F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749641F3175EE00390F92 /* Contents.json */; };
+		80B749B41F3175EE00390F92 /* RM_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749651F3175EE00390F92 /* RM_3@2x.png */; };
+		80B749B51F3175EE00390F92 /* RM_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749661F3175EE00390F92 /* RM_3@3x.png */; };
+		80B749B61F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749681F3175EE00390F92 /* Contents.json */; };
+		80B749B71F3175EE00390F92 /* RM_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749691F3175EE00390F92 /* RM_4@2x.png */; };
+		80B749B81F3175EE00390F92 /* RM_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7496A1F3175EE00390F92 /* RM_4@3x.png */; };
+		80B749B91F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7496C1F3175EE00390F92 /* Contents.json */; };
+		80B749BA1F3175EE00390F92 /* RM_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7496D1F3175EE00390F92 /* RM_5@2x.png */; };
+		80B749BB1F3175EE00390F92 /* RM_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7496E1F3175EE00390F92 /* RM_5@3x.png */; };
+		80B749BC1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749701F3175EE00390F92 /* Contents.json */; };
+		80B749BD1F3175EE00390F92 /* RM_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749711F3175EE00390F92 /* RM_6@2x.png */; };
+		80B749BE1F3175EE00390F92 /* RM_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749721F3175EE00390F92 /* RM_6@3x.png */; };
+		80B749BF1F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749741F3175EE00390F92 /* Contents.json */; };
+		80B749C01F3175EE00390F92 /* RM_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749751F3175EE00390F92 /* RM_7@2x.png */; };
+		80B749C11F3175EE00390F92 /* RM_7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749761F3175EE00390F92 /* RM_7@3x.png */; };
+		80B749C21F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B749781F3175EE00390F92 /* Contents.json */; };
+		80B749C31F3175EE00390F92 /* RM_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749791F3175EE00390F92 /* RM_8@2x.png */; };
+		80B749C41F3175EE00390F92 /* RM_8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7497A1F3175EE00390F92 /* RM_8@3x.png */; };
+		80B749C51F3175EE00390F92 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 80B7497C1F3175EE00390F92 /* Contents.json */; };
+		80B749C61F3175EE00390F92 /* RM_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7497D1F3175EE00390F92 /* RM_9@2x.png */; };
+		80B749C71F3175EE00390F92 /* RM_9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B7497E1F3175EE00390F92 /* RM_9@3x.png */; };
+		80B749CA1F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B749C91F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.m */; };
+		80B749CD1F32B0B800390F92 /* video_btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749CB1F32B0B800390F92 /* video_btn_close@2x.png */; };
+		80B749CE1F32B0B800390F92 /* video_btn_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B749CC1F32B0B800390F92 /* video_btn_close@3x.png */; };
+		80B749D21F32E94C00390F92 /* HYKaiT18030F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B749CF1F32E94C00390F92 /* HYKaiT18030F.ttf */; };
+		80B749D31F32E94C00390F92 /* HYQiH18030F45.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B749D01F32E94C00390F92 /* HYQiH18030F45.ttf */; };
+		80B749D41F32E94C00390F92 /* HYShuSE18030F.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B749D11F32E94C00390F92 /* HYShuSE18030F.ttf */; };
+		CFA69A93C875464A09175EC5 /* libPods-ePudReaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 033768BBDC92D75C42FC5371 /* libPods-ePudReaderDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80790D1C1F02380600840848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80790CFA1F02380600840848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80790D011F02380600840848;
+			remoteInfo = ePudReaderDemo;
+		};
+		80790D271F02380600840848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80790CFA1F02380600840848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80790D011F02380600840848;
+			remoteInfo = ePudReaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033768BBDC92D75C42FC5371 /* libPods-ePudReaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ePudReaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80067ED31F1F09A100116B81 /* DFPShaoNvW5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DFPShaoNvW5.ttf; sourceTree = "<group>"; };
+		80067ED51F1F09AC00116B81 /* SearchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
+		80067ED71F1F09BD00116B81 /* epubtheme.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = epubtheme.xml; sourceTree = "<group>"; };
+		80067ED91F1F0A5900116B81 /* JingGeEpubReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReadViewController.h; sourceTree = "<group>"; };
+		80067EDA1F1F0A5900116B81 /* JingGeEpubReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReadViewController.m; sourceTree = "<group>"; };
+		80067EDC1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderPageViewController.h; sourceTree = "<group>"; };
+		80067EDD1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderPageViewController.m; sourceTree = "<group>"; };
+		80067EE31F1F0BF100116B81 /* JingGeEpubReaderConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderConfig.h; sourceTree = "<group>"; };
+		80067EE41F1F0BF100116B81 /* JingGeEpubReaderConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderConfig.m; sourceTree = "<group>"; };
+		80067EE61F1F0C0600116B81 /* JingGeEpubParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubParser.h; sourceTree = "<group>"; };
+		80067EE71F1F0C0600116B81 /* JingGeEpubParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubParser.m; sourceTree = "<group>"; };
+		80067EE91F1F0C8600116B81 /* JingGeEpubReaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderModel.h; sourceTree = "<group>"; };
+		80067EEA1F1F0C8600116B81 /* JingGeEpubReaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderModel.m; sourceTree = "<group>"; };
+		80067EEE1F1F302B00116B81 /* JingGeEpubReaderMarkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderMarkModel.h; sourceTree = "<group>"; };
+		80067EEF1F1F302B00116B81 /* JingGeEpubReaderMarkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderMarkModel.m; sourceTree = "<group>"; };
+		80067EF31F1F483400116B81 /* 张爱玲作品集.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "张爱玲作品集.epub"; sourceTree = "<group>"; };
+		80067EF51F1F4B6600116B81 /* JingGeEpubPageWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubPageWebView.h; sourceTree = "<group>"; };
+		80067EF61F1F4B6600116B81 /* JingGeEpubPageWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubPageWebView.m; sourceTree = "<group>"; };
+		80067EF81F204DDC00116B81 /* JingGeEpubReaderControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderControlView.h; sourceTree = "<group>"; };
+		80067EF91F204DDC00116B81 /* JingGeEpubReaderControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderControlView.m; sourceTree = "<group>"; };
+		80067EFF1F20546C00116B81 /* JingGeEpubReaderProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderProgressView.h; sourceTree = "<group>"; };
+		80067F001F20546C00116B81 /* JingGeEpubReaderProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderProgressView.m; sourceTree = "<group>"; };
+		80790D021F02380600840848 /* ePudReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePudReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80790D061F02380600840848 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80790D081F02380600840848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80790D091F02380600840848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80790D0F1F02380600840848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80790D111F02380600840848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80790D141F02380600840848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80790D161F02380600840848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80790D1B1F02380600840848 /* ePudReaderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePudReaderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80790D1F1F02380600840848 /* ePudReaderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ePudReaderDemoTests.m; sourceTree = "<group>"; };
+		80790D211F02380600840848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80790D261F02380600840848 /* ePudReaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePudReaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80790D2A1F02380600840848 /* ePudReaderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ePudReaderDemoUITests.m; sourceTree = "<group>"; };
+		80790D2C1F02380600840848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807A6DD31F3D585A0025D2F3 /* 新能源汽车使用与维护.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "新能源汽车使用与维护.epub"; sourceTree = "<group>"; };
+		807A6DDD1F3D9D5B0025D2F3 /* 新能源汽车使用与维护(1).epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "新能源汽车使用与维护(1).epub"; sourceTree = "<group>"; };
+		807A6DDF1F3DA8C00025D2F3 /* 新能源汽车使用与维护(2).epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "新能源汽车使用与维护(2).epub"; sourceTree = "<group>"; };
+		807A6DE01F3DAF170025D2F3 /* 新能源汽车使用与维护2.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "新能源汽车使用与维护2.epub"; sourceTree = "<group>"; };
+		807A6DE21F3DAF200025D2F3 /* 新能源汽车使用与维护1.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "新能源汽车使用与维护1.epub"; sourceTree = "<group>"; };
+		8098B0C01F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderCatalogModel.h; sourceTree = "<group>"; };
+		8098B0C11F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderCatalogModel.m; sourceTree = "<group>"; };
+		8098B0C31F2F15DC005DF74F /* JingGeEpubReaderItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderItemModel.h; sourceTree = "<group>"; };
+		8098B0C41F2F15DC005DF74F /* JingGeEpubReaderItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderItemModel.m; sourceTree = "<group>"; };
+		8098B0C61F2F1668005DF74F /* JingGeEpubReaderInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderInfoModel.h; sourceTree = "<group>"; };
+		8098B0C71F2F1668005DF74F /* JingGeEpubReaderInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderInfoModel.m; sourceTree = "<group>"; };
+		8098B0C91F301A07005DF74F /* Bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Bridge.js; sourceTree = "<group>"; };
+		809F5EF91F25E5410091F455 /* JingGeEpubReadCatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReadCatalogViewController.h; sourceTree = "<group>"; };
+		809F5EFA1F25E5410091F455 /* JingGeEpubReadCatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReadCatalogViewController.m; sourceTree = "<group>"; };
+		809F5EFC1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderCotalogViewCell.h; sourceTree = "<group>"; };
+		809F5EFD1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderCotalogViewCell.m; sourceTree = "<group>"; };
+		809F5EFF1F283E570091F455 /* 测试(1).epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "测试(1).epub"; sourceTree = "<group>"; };
+		809F5F011F286CF00091F455 /* btn_defaukt_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_defaukt_back@2x.png"; sourceTree = "<group>"; };
+		809F5F021F286CF00091F455 /* btn_defaukt_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_defaukt_back@3x.png"; sourceTree = "<group>"; };
+		809F5F051F2888CC0091F455 /* JFTextPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTextPlayer.h; sourceTree = "<group>"; };
+		809F5F061F2888CC0091F455 /* JFTextPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTextPlayer.m; sourceTree = "<group>"; };
+		809F5F081F2990B60091F455 /* 这些.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "这些.epub"; sourceTree = "<group>"; };
+		809F5F091F2990B60091F455 /* 为人处世曾国藩.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "为人处世曾国藩.epub"; sourceTree = "<group>"; };
+		809F5F0C1F29926A0091F455 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		809F5F0D1F29926A0091F455 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		809F5F0F1F299EF90091F455 /* Wei Zhi.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wei Zhi.epub"; sourceTree = "<group>"; };
+		809F5F111F29B3810091F455 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		809F5F121F29B3810091F455 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		809F5F141F29B7A40091F455 /* Wei Zhi1.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wei Zhi1.epub"; sourceTree = "<group>"; };
+		809F5F161F29B8740091F455 /* Wei Zhi的副本.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wei Zhi的副本.epub"; sourceTree = "<group>"; };
+		809F5F171F29C95A0091F455 /* Ni Zhong Yu.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ni Zhong Yu.epub"; sourceTree = "<group>"; };
+		809F76841F4592B90040068D /* 1234456.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1234456.epub; sourceTree = "<group>"; };
+		80B7491E1F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749201F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749211F3175ED00390F92 /* G_Battery_Black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G_Battery_Black@2x.png"; sourceTree = "<group>"; };
+		80B749221F3175ED00390F92 /* G_Battery_Black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G_Battery_Black@3x.png"; sourceTree = "<group>"; };
+		80B749241F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749251F3175ED00390F92 /* read_bar_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_0@2x.png"; sourceTree = "<group>"; };
+		80B749261F3175ED00390F92 /* read_bar_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_0@3x.png"; sourceTree = "<group>"; };
+		80B749281F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749291F3175ED00390F92 /* read_bar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_1@2x.png"; sourceTree = "<group>"; };
+		80B7492A1F3175ED00390F92 /* read_bar_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_1@3x.png"; sourceTree = "<group>"; };
+		80B7492C1F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B7492D1F3175ED00390F92 /* read_bar_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_2@2x.png"; sourceTree = "<group>"; };
+		80B7492E1F3175ED00390F92 /* read_bar_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_2@3x.png"; sourceTree = "<group>"; };
+		80B749301F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749311F3175ED00390F92 /* read_bar_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_3@2x.png"; sourceTree = "<group>"; };
+		80B749321F3175ED00390F92 /* read_bar_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bar_3@3x.png"; sourceTree = "<group>"; };
+		80B749341F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749351F3175ED00390F92 /* read_bg_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bg_0@2x.png"; sourceTree = "<group>"; };
+		80B749361F3175ED00390F92 /* read_bg_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "read_bg_0@3x.png"; sourceTree = "<group>"; };
+		80B749381F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749391F3175ED00390F92 /* RM_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_0@2x.png"; sourceTree = "<group>"; };
+		80B7493A1F3175ED00390F92 /* RM_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_0@3x.png"; sourceTree = "<group>"; };
+		80B7493C1F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B7493D1F3175ED00390F92 /* RM_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_1@2x.png"; sourceTree = "<group>"; };
+		80B7493E1F3175ED00390F92 /* RM_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_1@3x.png"; sourceTree = "<group>"; };
+		80B749401F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749411F3175ED00390F92 /* RM_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_10@2x.png"; sourceTree = "<group>"; };
+		80B749421F3175ED00390F92 /* RM_10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_10@3x.png"; sourceTree = "<group>"; };
+		80B749441F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749451F3175ED00390F92 /* RM_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_11@2x.png"; sourceTree = "<group>"; };
+		80B749461F3175ED00390F92 /* RM_11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_11@3x.png"; sourceTree = "<group>"; };
+		80B749481F3175ED00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749491F3175ED00390F92 /* RM_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_13@2x.png"; sourceTree = "<group>"; };
+		80B7494A1F3175EE00390F92 /* RM_13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_13@3x.png"; sourceTree = "<group>"; };
+		80B7494C1F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B7494D1F3175EE00390F92 /* RM_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_14@2x.png"; sourceTree = "<group>"; };
+		80B7494E1F3175EE00390F92 /* RM_14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_14@3x.png"; sourceTree = "<group>"; };
+		80B749501F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749511F3175EE00390F92 /* RM_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_15@2x.png"; sourceTree = "<group>"; };
+		80B749521F3175EE00390F92 /* RM_15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_15@3x.png"; sourceTree = "<group>"; };
+		80B749541F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749551F3175EE00390F92 /* RM_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_16@2x.png"; sourceTree = "<group>"; };
+		80B749561F3175EE00390F92 /* RM_16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_16@3x.png"; sourceTree = "<group>"; };
+		80B749581F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749591F3175EE00390F92 /* RM_17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_17@2x.png"; sourceTree = "<group>"; };
+		80B7495A1F3175EE00390F92 /* RM_17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_17@3x.png"; sourceTree = "<group>"; };
+		80B7495C1F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B7495D1F3175EE00390F92 /* RM_18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_18@2x.png"; sourceTree = "<group>"; };
+		80B7495E1F3175EE00390F92 /* RM_18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_18@3x.png"; sourceTree = "<group>"; };
+		80B749601F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749611F3175EE00390F92 /* RM_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_2@2x.png"; sourceTree = "<group>"; };
+		80B749621F3175EE00390F92 /* RM_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_2@3x.png"; sourceTree = "<group>"; };
+		80B749641F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749651F3175EE00390F92 /* RM_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_3@2x.png"; sourceTree = "<group>"; };
+		80B749661F3175EE00390F92 /* RM_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_3@3x.png"; sourceTree = "<group>"; };
+		80B749681F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749691F3175EE00390F92 /* RM_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_4@2x.png"; sourceTree = "<group>"; };
+		80B7496A1F3175EE00390F92 /* RM_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_4@3x.png"; sourceTree = "<group>"; };
+		80B7496C1F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B7496D1F3175EE00390F92 /* RM_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_5@2x.png"; sourceTree = "<group>"; };
+		80B7496E1F3175EE00390F92 /* RM_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_5@3x.png"; sourceTree = "<group>"; };
+		80B749701F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749711F3175EE00390F92 /* RM_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_6@2x.png"; sourceTree = "<group>"; };
+		80B749721F3175EE00390F92 /* RM_6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_6@3x.png"; sourceTree = "<group>"; };
+		80B749741F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749751F3175EE00390F92 /* RM_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_7@2x.png"; sourceTree = "<group>"; };
+		80B749761F3175EE00390F92 /* RM_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_7@3x.png"; sourceTree = "<group>"; };
+		80B749781F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B749791F3175EE00390F92 /* RM_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_8@2x.png"; sourceTree = "<group>"; };
+		80B7497A1F3175EE00390F92 /* RM_8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_8@3x.png"; sourceTree = "<group>"; };
+		80B7497C1F3175EE00390F92 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		80B7497D1F3175EE00390F92 /* RM_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_9@2x.png"; sourceTree = "<group>"; };
+		80B7497E1F3175EE00390F92 /* RM_9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RM_9@3x.png"; sourceTree = "<group>"; };
+		80B749C81F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingGeEpubReaderColorChoiseCollectionViewCell.h; sourceTree = "<group>"; };
+		80B749C91F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingGeEpubReaderColorChoiseCollectionViewCell.m; sourceTree = "<group>"; };
+		80B749CB1F32B0B800390F92 /* video_btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_btn_close@2x.png"; sourceTree = "<group>"; };
+		80B749CC1F32B0B800390F92 /* video_btn_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_btn_close@3x.png"; sourceTree = "<group>"; };
+		80B749CF1F32E94C00390F92 /* HYKaiT18030F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYKaiT18030F.ttf; sourceTree = "<group>"; };
+		80B749D01F32E94C00390F92 /* HYQiH18030F45.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYQiH18030F45.ttf; sourceTree = "<group>"; };
+		80B749D11F32E94C00390F92 /* HYShuSE18030F.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYShuSE18030F.ttf; sourceTree = "<group>"; };
+		94218CFF9799A7B43E53DA7E /* Pods-ePudReaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePudReaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ePudReaderDemo/Pods-ePudReaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FFCE7E84FB758668767C3AAB /* Pods-ePudReaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePudReaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ePudReaderDemo/Pods-ePudReaderDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80790CFF1F02380600840848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA69A93C875464A09175EC5 /* libPods-ePudReaderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D181F02380600840848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D231F02380600840848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80067EC91F1F083F00116B81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80067ED91F1F0A5900116B81 /* JingGeEpubReadViewController.h */,
+				80067EDA1F1F0A5900116B81 /* JingGeEpubReadViewController.m */,
+				80067EDC1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.h */,
+				80067EDD1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.m */,
+				809F5EF91F25E5410091F455 /* JingGeEpubReadCatalogViewController.h */,
+				809F5EFA1F25E5410091F455 /* JingGeEpubReadCatalogViewController.m */,
+				809F5F111F29B3810091F455 /* PlayerViewController.h */,
+				809F5F121F29B3810091F455 /* PlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80067ECA1F1F083F00116B81 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				80067EE31F1F0BF100116B81 /* JingGeEpubReaderConfig.h */,
+				80067EE41F1F0BF100116B81 /* JingGeEpubReaderConfig.m */,
+				80067EE61F1F0C0600116B81 /* JingGeEpubParser.h */,
+				80067EE71F1F0C0600116B81 /* JingGeEpubParser.m */,
+				809F5F051F2888CC0091F455 /* JFTextPlayer.h */,
+				809F5F061F2888CC0091F455 /* JFTextPlayer.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		80067ECB1F1F083F00116B81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80067EE91F1F0C8600116B81 /* JingGeEpubReaderModel.h */,
+				80067EEA1F1F0C8600116B81 /* JingGeEpubReaderModel.m */,
+				8098B0C61F2F1668005DF74F /* JingGeEpubReaderInfoModel.h */,
+				8098B0C71F2F1668005DF74F /* JingGeEpubReaderInfoModel.m */,
+				8098B0C01F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.h */,
+				8098B0C11F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.m */,
+				8098B0C31F2F15DC005DF74F /* JingGeEpubReaderItemModel.h */,
+				8098B0C41F2F15DC005DF74F /* JingGeEpubReaderItemModel.m */,
+				80067EEE1F1F302B00116B81 /* JingGeEpubReaderMarkModel.h */,
+				80067EEF1F1F302B00116B81 /* JingGeEpubReaderMarkModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80067ECC1F1F083F00116B81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80067EFB1F20502200116B81 /* MoreEditView */,
+				80067EF51F1F4B6600116B81 /* JingGeEpubPageWebView.h */,
+				80067EF61F1F4B6600116B81 /* JingGeEpubPageWebView.m */,
+				80067EF81F204DDC00116B81 /* JingGeEpubReaderControlView.h */,
+				80067EF91F204DDC00116B81 /* JingGeEpubReaderControlView.m */,
+				80067EFF1F20546C00116B81 /* JingGeEpubReaderProgressView.h */,
+				80067F001F20546C00116B81 /* JingGeEpubReaderProgressView.m */,
+				809F5EFC1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.h */,
+				809F5EFD1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.m */,
+				80B749C81F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.h */,
+				80B749C91F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80067ECD1F1F099400116B81 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				80067ECE1F1F099400116B81 /* Image */,
+				80067ECF1F1F099400116B81 /* Other */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		80067ECE1F1F099400116B81 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				80B7491D1F3175ED00390F92 /* ReadMenu */,
+				809F5F011F286CF00091F455 /* btn_defaukt_back@2x.png */,
+				809F5F021F286CF00091F455 /* btn_defaukt_back@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		80067ECF1F1F099400116B81 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				80067ED01F1F099400116B81 /* Font */,
+				80067ED11F1F099400116B81 /* js */,
+				80067ED21F1F099400116B81 /* XML */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		80067ED01F1F099400116B81 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				80067ED31F1F09A100116B81 /* DFPShaoNvW5.ttf */,
+				80B749CF1F32E94C00390F92 /* HYKaiT18030F.ttf */,
+				80B749D01F32E94C00390F92 /* HYQiH18030F45.ttf */,
+				80B749D11F32E94C00390F92 /* HYShuSE18030F.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		80067ED11F1F099400116B81 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				8098B0C91F301A07005DF74F /* Bridge.js */,
+				80067ED51F1F09AC00116B81 /* SearchWebView.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		80067ED21F1F099400116B81 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				80067ED71F1F09BD00116B81 /* epubtheme.xml */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		80067EFB1F20502200116B81 /* MoreEditView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MoreEditView;
+			sourceTree = "<group>";
+		};
+		80790CF91F02380600840848 = {
+			isa = PBXGroup;
+			children = (
+				80790D041F02380600840848 /* ePudReaderDemo */,
+				80790D1E1F02380600840848 /* ePudReaderDemoTests */,
+				80790D291F02380600840848 /* ePudReaderDemoUITests */,
+				80790D031F02380600840848 /* Products */,
+				8A36D3EE0AEE679C36C406A2 /* Pods */,
+				865C7DDE1BFA765CD091891E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80790D031F02380600840848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80790D021F02380600840848 /* ePudReaderDemo.app */,
+				80790D1B1F02380600840848 /* ePudReaderDemoTests.xctest */,
+				80790D261F02380600840848 /* ePudReaderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80790D041F02380600840848 /* ePudReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				809F76841F4592B90040068D /* 1234456.epub */,
+				807A6DE21F3DAF200025D2F3 /* 新能源汽车使用与维护1.epub */,
+				807A6DE01F3DAF170025D2F3 /* 新能源汽车使用与维护2.epub */,
+				807A6DDF1F3DA8C00025D2F3 /* 新能源汽车使用与维护(2).epub */,
+				807A6DDD1F3D9D5B0025D2F3 /* 新能源汽车使用与维护(1).epub */,
+				807A6DD31F3D585A0025D2F3 /* 新能源汽车使用与维护.epub */,
+				809F5F161F29B8740091F455 /* Wei Zhi的副本.epub */,
+				809F5F141F29B7A40091F455 /* Wei Zhi1.epub */,
+				809F5F0F1F299EF90091F455 /* Wei Zhi.epub */,
+				809F5F081F2990B60091F455 /* 这些.epub */,
+				809F5F091F2990B60091F455 /* 为人处世曾国藩.epub */,
+				80067EF31F1F483400116B81 /* 张爱玲作品集.epub */,
+				809F5EFF1F283E570091F455 /* 测试(1).epub */,
+				809F5F171F29C95A0091F455 /* Ni Zhong Yu.epub */,
+				80067ECD1F1F099400116B81 /* Resourse */,
+				80067EC91F1F083F00116B81 /* Controller */,
+				80067ECA1F1F083F00116B81 /* Helper */,
+				80067ECB1F1F083F00116B81 /* Model */,
+				80067ECC1F1F083F00116B81 /* View */,
+				80790D081F02380600840848 /* AppDelegate.h */,
+				80790D091F02380600840848 /* AppDelegate.m */,
+				809F5F0C1F29926A0091F455 /* TableViewController.h */,
+				809F5F0D1F29926A0091F455 /* TableViewController.m */,
+				80790D0E1F02380600840848 /* Main.storyboard */,
+				80790D111F02380600840848 /* Assets.xcassets */,
+				80790D131F02380600840848 /* LaunchScreen.storyboard */,
+				80790D161F02380600840848 /* Info.plist */,
+				80790D051F02380600840848 /* Supporting Files */,
+			);
+			path = ePudReaderDemo;
+			sourceTree = "<group>";
+		};
+		80790D051F02380600840848 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80790D061F02380600840848 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80790D1E1F02380600840848 /* ePudReaderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				80790D1F1F02380600840848 /* ePudReaderDemoTests.m */,
+				80790D211F02380600840848 /* Info.plist */,
+			);
+			path = ePudReaderDemoTests;
+			sourceTree = "<group>";
+		};
+		80790D291F02380600840848 /* ePudReaderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80790D2A1F02380600840848 /* ePudReaderDemoUITests.m */,
+				80790D2C1F02380600840848 /* Info.plist */,
+			);
+			path = ePudReaderDemoUITests;
+			sourceTree = "<group>";
+		};
+		80B7491D1F3175ED00390F92 /* ReadMenu */ = {
+			isa = PBXGroup;
+			children = (
+				80B7491E1F3175ED00390F92 /* Contents.json */,
+				80B7491F1F3175ED00390F92 /* G_Battery_Black.imageset */,
+				80B749231F3175ED00390F92 /* read_bar_0.imageset */,
+				80B749271F3175ED00390F92 /* read_bar_1.imageset */,
+				80B7492B1F3175ED00390F92 /* read_bar_2.imageset */,
+				80B7492F1F3175ED00390F92 /* read_bar_3.imageset */,
+				80B749331F3175ED00390F92 /* read_bg_0.imageset */,
+				80B749371F3175ED00390F92 /* RM_0.imageset */,
+				80B7493B1F3175ED00390F92 /* RM_1.imageset */,
+				80B7493F1F3175ED00390F92 /* RM_10.imageset */,
+				80B749431F3175ED00390F92 /* RM_11.imageset */,
+				80B749471F3175ED00390F92 /* RM_13.imageset */,
+				80B7494B1F3175EE00390F92 /* RM_14.imageset */,
+				80B7494F1F3175EE00390F92 /* RM_15.imageset */,
+				80B749531F3175EE00390F92 /* RM_16.imageset */,
+				80B749571F3175EE00390F92 /* RM_17.imageset */,
+				80B7495B1F3175EE00390F92 /* RM_18.imageset */,
+				80B7495F1F3175EE00390F92 /* RM_2.imageset */,
+				80B749631F3175EE00390F92 /* RM_3.imageset */,
+				80B749671F3175EE00390F92 /* RM_4.imageset */,
+				80B7496B1F3175EE00390F92 /* RM_5.imageset */,
+				80B7496F1F3175EE00390F92 /* RM_6.imageset */,
+				80B749731F3175EE00390F92 /* RM_7.imageset */,
+				80B749771F3175EE00390F92 /* RM_8.imageset */,
+				80B7497B1F3175EE00390F92 /* RM_9.imageset */,
+			);
+			path = ReadMenu;
+			sourceTree = "<group>";
+		};
+		80B7491F1F3175ED00390F92 /* G_Battery_Black.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749201F3175ED00390F92 /* Contents.json */,
+				80B749211F3175ED00390F92 /* G_Battery_Black@2x.png */,
+				80B749221F3175ED00390F92 /* G_Battery_Black@3x.png */,
+			);
+			path = G_Battery_Black.imageset;
+			sourceTree = "<group>";
+		};
+		80B749231F3175ED00390F92 /* read_bar_0.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749241F3175ED00390F92 /* Contents.json */,
+				80B749251F3175ED00390F92 /* read_bar_0@2x.png */,
+				80B749261F3175ED00390F92 /* read_bar_0@3x.png */,
+			);
+			path = read_bar_0.imageset;
+			sourceTree = "<group>";
+		};
+		80B749271F3175ED00390F92 /* read_bar_1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749281F3175ED00390F92 /* Contents.json */,
+				80B749291F3175ED00390F92 /* read_bar_1@2x.png */,
+				80B7492A1F3175ED00390F92 /* read_bar_1@3x.png */,
+			);
+			path = read_bar_1.imageset;
+			sourceTree = "<group>";
+		};
+		80B7492B1F3175ED00390F92 /* read_bar_2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B7492C1F3175ED00390F92 /* Contents.json */,
+				80B7492D1F3175ED00390F92 /* read_bar_2@2x.png */,
+				80B7492E1F3175ED00390F92 /* read_bar_2@3x.png */,
+			);
+			path = read_bar_2.imageset;
+			sourceTree = "<group>";
+		};
+		80B7492F1F3175ED00390F92 /* read_bar_3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749301F3175ED00390F92 /* Contents.json */,
+				80B749311F3175ED00390F92 /* read_bar_3@2x.png */,
+				80B749321F3175ED00390F92 /* read_bar_3@3x.png */,
+				80B749CB1F32B0B800390F92 /* video_btn_close@2x.png */,
+				80B749CC1F32B0B800390F92 /* video_btn_close@3x.png */,
+			);
+			path = read_bar_3.imageset;
+			sourceTree = "<group>";
+		};
+		80B749331F3175ED00390F92 /* read_bg_0.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749341F3175ED00390F92 /* Contents.json */,
+				80B749351F3175ED00390F92 /* read_bg_0@2x.png */,
+				80B749361F3175ED00390F92 /* read_bg_0@3x.png */,
+			);
+			path = read_bg_0.imageset;
+			sourceTree = "<group>";
+		};
+		80B749371F3175ED00390F92 /* RM_0.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749381F3175ED00390F92 /* Contents.json */,
+				80B749391F3175ED00390F92 /* RM_0@2x.png */,
+				80B7493A1F3175ED00390F92 /* RM_0@3x.png */,
+			);
+			path = RM_0.imageset;
+			sourceTree = "<group>";
+		};
+		80B7493B1F3175ED00390F92 /* RM_1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B7493C1F3175ED00390F92 /* Contents.json */,
+				80B7493D1F3175ED00390F92 /* RM_1@2x.png */,
+				80B7493E1F3175ED00390F92 /* RM_1@3x.png */,
+			);
+			path = RM_1.imageset;
+			sourceTree = "<group>";
+		};
+		80B7493F1F3175ED00390F92 /* RM_10.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749401F3175ED00390F92 /* Contents.json */,
+				80B749411F3175ED00390F92 /* RM_10@2x.png */,
+				80B749421F3175ED00390F92 /* RM_10@3x.png */,
+			);
+			path = RM_10.imageset;
+			sourceTree = "<group>";
+		};
+		80B749431F3175ED00390F92 /* RM_11.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749441F3175ED00390F92 /* Contents.json */,
+				80B749451F3175ED00390F92 /* RM_11@2x.png */,
+				80B749461F3175ED00390F92 /* RM_11@3x.png */,
+			);
+			path = RM_11.imageset;
+			sourceTree = "<group>";
+		};
+		80B749471F3175ED00390F92 /* RM_13.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749481F3175ED00390F92 /* Contents.json */,
+				80B749491F3175ED00390F92 /* RM_13@2x.png */,
+				80B7494A1F3175EE00390F92 /* RM_13@3x.png */,
+			);
+			path = RM_13.imageset;
+			sourceTree = "<group>";
+		};
+		80B7494B1F3175EE00390F92 /* RM_14.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B7494C1F3175EE00390F92 /* Contents.json */,
+				80B7494D1F3175EE00390F92 /* RM_14@2x.png */,
+				80B7494E1F3175EE00390F92 /* RM_14@3x.png */,
+			);
+			path = RM_14.imageset;
+			sourceTree = "<group>";
+		};
+		80B7494F1F3175EE00390F92 /* RM_15.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749501F3175EE00390F92 /* Contents.json */,
+				80B749511F3175EE00390F92 /* RM_15@2x.png */,
+				80B749521F3175EE00390F92 /* RM_15@3x.png */,
+			);
+			path = RM_15.imageset;
+			sourceTree = "<group>";
+		};
+		80B749531F3175EE00390F92 /* RM_16.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749541F3175EE00390F92 /* Contents.json */,
+				80B749551F3175EE00390F92 /* RM_16@2x.png */,
+				80B749561F3175EE00390F92 /* RM_16@3x.png */,
+			);
+			path = RM_16.imageset;
+			sourceTree = "<group>";
+		};
+		80B749571F3175EE00390F92 /* RM_17.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749581F3175EE00390F92 /* Contents.json */,
+				80B749591F3175EE00390F92 /* RM_17@2x.png */,
+				80B7495A1F3175EE00390F92 /* RM_17@3x.png */,
+			);
+			path = RM_17.imageset;
+			sourceTree = "<group>";
+		};
+		80B7495B1F3175EE00390F92 /* RM_18.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B7495C1F3175EE00390F92 /* Contents.json */,
+				80B7495D1F3175EE00390F92 /* RM_18@2x.png */,
+				80B7495E1F3175EE00390F92 /* RM_18@3x.png */,
+			);
+			path = RM_18.imageset;
+			sourceTree = "<group>";
+		};
+		80B7495F1F3175EE00390F92 /* RM_2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749601F3175EE00390F92 /* Contents.json */,
+				80B749611F3175EE00390F92 /* RM_2@2x.png */,
+				80B749621F3175EE00390F92 /* RM_2@3x.png */,
+			);
+			path = RM_2.imageset;
+			sourceTree = "<group>";
+		};
+		80B749631F3175EE00390F92 /* RM_3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749641F3175EE00390F92 /* Contents.json */,
+				80B749651F3175EE00390F92 /* RM_3@2x.png */,
+				80B749661F3175EE00390F92 /* RM_3@3x.png */,
+			);
+			path = RM_3.imageset;
+			sourceTree = "<group>";
+		};
+		80B749671F3175EE00390F92 /* RM_4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749681F3175EE00390F92 /* Contents.json */,
+				80B749691F3175EE00390F92 /* RM_4@2x.png */,
+				80B7496A1F3175EE00390F92 /* RM_4@3x.png */,
+			);
+			path = RM_4.imageset;
+			sourceTree = "<group>";
+		};
+		80B7496B1F3175EE00390F92 /* RM_5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B7496C1F3175EE00390F92 /* Contents.json */,
+				80B7496D1F3175EE00390F92 /* RM_5@2x.png */,
+				80B7496E1F3175EE00390F92 /* RM_5@3x.png */,
+			);
+			path = RM_5.imageset;
+			sourceTree = "<group>";
+		};
+		80B7496F1F3175EE00390F92 /* RM_6.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749701F3175EE00390F92 /* Contents.json */,
+				80B749711F3175EE00390F92 /* RM_6@2x.png */,
+				80B749721F3175EE00390F92 /* RM_6@3x.png */,
+			);
+			path = RM_6.imageset;
+			sourceTree = "<group>";
+		};
+		80B749731F3175EE00390F92 /* RM_7.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749741F3175EE00390F92 /* Contents.json */,
+				80B749751F3175EE00390F92 /* RM_7@2x.png */,
+				80B749761F3175EE00390F92 /* RM_7@3x.png */,
+			);
+			path = RM_7.imageset;
+			sourceTree = "<group>";
+		};
+		80B749771F3175EE00390F92 /* RM_8.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B749781F3175EE00390F92 /* Contents.json */,
+				80B749791F3175EE00390F92 /* RM_8@2x.png */,
+				80B7497A1F3175EE00390F92 /* RM_8@3x.png */,
+			);
+			path = RM_8.imageset;
+			sourceTree = "<group>";
+		};
+		80B7497B1F3175EE00390F92 /* RM_9.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				80B7497C1F3175EE00390F92 /* Contents.json */,
+				80B7497D1F3175EE00390F92 /* RM_9@2x.png */,
+				80B7497E1F3175EE00390F92 /* RM_9@3x.png */,
+			);
+			path = RM_9.imageset;
+			sourceTree = "<group>";
+		};
+		865C7DDE1BFA765CD091891E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033768BBDC92D75C42FC5371 /* libPods-ePudReaderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A36D3EE0AEE679C36C406A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94218CFF9799A7B43E53DA7E /* Pods-ePudReaderDemo.debug.xcconfig */,
+				FFCE7E84FB758668767C3AAB /* Pods-ePudReaderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80790D011F02380600840848 /* ePudReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80790D2F1F02380600840848 /* Build configuration list for PBXNativeTarget "ePudReaderDemo" */;
+			buildPhases = (
+				ACED38E516FC70B767199929 /* [CP] Check Pods Manifest.lock */,
+				80790CFE1F02380600840848 /* Sources */,
+				80790CFF1F02380600840848 /* Frameworks */,
+				80790D001F02380600840848 /* Resources */,
+				8E052FB4FBB2AC722F48B367 /* [CP] Embed Pods Frameworks */,
+				11FB966EA8CB179484D4B64C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePudReaderDemo;
+			productName = ePudReaderDemo;
+			productReference = 80790D021F02380600840848 /* ePudReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80790D1A1F02380600840848 /* ePudReaderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80790D321F02380600840848 /* Build configuration list for PBXNativeTarget "ePudReaderDemoTests" */;
+			buildPhases = (
+				80790D171F02380600840848 /* Sources */,
+				80790D181F02380600840848 /* Frameworks */,
+				80790D191F02380600840848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80790D1D1F02380600840848 /* PBXTargetDependency */,
+			);
+			name = ePudReaderDemoTests;
+			productName = ePudReaderDemoTests;
+			productReference = 80790D1B1F02380600840848 /* ePudReaderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80790D251F02380600840848 /* ePudReaderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80790D351F02380600840848 /* Build configuration list for PBXNativeTarget "ePudReaderDemoUITests" */;
+			buildPhases = (
+				80790D221F02380600840848 /* Sources */,
+				80790D231F02380600840848 /* Frameworks */,
+				80790D241F02380600840848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80790D281F02380600840848 /* PBXTargetDependency */,
+			);
+			name = ePudReaderDemoUITests;
+			productName = ePudReaderDemoUITests;
+			productReference = 80790D261F02380600840848 /* ePudReaderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80790CFA1F02380600840848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "景格_徐薛波";
+				TargetAttributes = {
+					80790D011F02380600840848 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 697TSGGHN8;
+						ProvisioningStyle = Automatic;
+					};
+					80790D1A1F02380600840848 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 697TSGGHN8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80790D011F02380600840848;
+					};
+					80790D251F02380600840848 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 697TSGGHN8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80790D011F02380600840848;
+					};
+				};
+			};
+			buildConfigurationList = 80790CFD1F02380600840848 /* Build configuration list for PBXProject "ePudReaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80790CF91F02380600840848;
+			productRefGroup = 80790D031F02380600840848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80790D011F02380600840848 /* ePudReaderDemo */,
+				80790D1A1F02380600840848 /* ePudReaderDemoTests */,
+				80790D251F02380600840848 /* ePudReaderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80790D001F02380600840848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B749971F3175EE00390F92 /* RM_1@3x.png in Resources */,
+				80B749C41F3175EE00390F92 /* RM_8@3x.png in Resources */,
+				80B749811F3175EE00390F92 /* G_Battery_Black@2x.png in Resources */,
+				807A6DD41F3D585A0025D2F3 /* 新能源汽车使用与维护.epub in Resources */,
+				80B749A11F3175EE00390F92 /* Contents.json in Resources */,
+				80B749821F3175EE00390F92 /* G_Battery_Black@3x.png in Resources */,
+				80B749871F3175EE00390F92 /* read_bar_1@2x.png in Resources */,
+				80B749B91F3175EE00390F92 /* Contents.json in Resources */,
+				809F5F101F299F080091F455 /* Wei Zhi.epub in Resources */,
+				80B749851F3175EE00390F92 /* read_bar_0@3x.png in Resources */,
+				80B7498C1F3175EE00390F92 /* Contents.json in Resources */,
+				80B749881F3175EE00390F92 /* read_bar_1@3x.png in Resources */,
+				80B749C71F3175EE00390F92 /* RM_9@3x.png in Resources */,
+				80B749C51F3175EE00390F92 /* Contents.json in Resources */,
+				80B749BD1F3175EE00390F92 /* RM_6@2x.png in Resources */,
+				80B749941F3175EE00390F92 /* RM_0@3x.png in Resources */,
+				80B749B71F3175EE00390F92 /* RM_4@2x.png in Resources */,
+				80B7498D1F3175EE00390F92 /* read_bar_3@2x.png in Resources */,
+				80B749B61F3175EE00390F92 /* Contents.json in Resources */,
+				80B749841F3175EE00390F92 /* read_bar_0@2x.png in Resources */,
+				80B749C11F3175EE00390F92 /* RM_7@3x.png in Resources */,
+				80B749A51F3175EE00390F92 /* RM_15@2x.png in Resources */,
+				80B749A21F3175EE00390F92 /* RM_14@2x.png in Resources */,
+				80B749A61F3175EE00390F92 /* RM_15@3x.png in Resources */,
+				80B7499C1F3175EE00390F92 /* RM_11@2x.png in Resources */,
+				80B749AE1F3175EE00390F92 /* RM_18@2x.png in Resources */,
+				80B749B31F3175EE00390F92 /* Contents.json in Resources */,
+				80B749A01F3175EE00390F92 /* RM_13@3x.png in Resources */,
+				80B7498A1F3175EE00390F92 /* read_bar_2@2x.png in Resources */,
+				80B749AC1F3175EE00390F92 /* RM_17@3x.png in Resources */,
+				8098B0CA1F301A08005DF74F /* Bridge.js in Resources */,
+				80B749AD1F3175EE00390F92 /* Contents.json in Resources */,
+				80B749BB1F3175EE00390F92 /* RM_5@3x.png in Resources */,
+				80B7499A1F3175EE00390F92 /* RM_10@3x.png in Resources */,
+				80B749A81F3175EE00390F92 /* RM_16@2x.png in Resources */,
+				80B749921F3175EE00390F92 /* Contents.json in Resources */,
+				80B7497F1F3175EE00390F92 /* Contents.json in Resources */,
+				80067ED41F1F09A100116B81 /* DFPShaoNvW5.ttf in Resources */,
+				80B749911F3175EE00390F92 /* read_bg_0@3x.png in Resources */,
+				80B749D41F32E94C00390F92 /* HYShuSE18030F.ttf in Resources */,
+				80790D151F02380600840848 /* LaunchScreen.storyboard in Resources */,
+				80B749B51F3175EE00390F92 /* RM_3@3x.png in Resources */,
+				80B749B21F3175EE00390F92 /* RM_2@3x.png in Resources */,
+				80B749A91F3175EE00390F92 /* RM_16@3x.png in Resources */,
+				80B749B11F3175EE00390F92 /* RM_2@2x.png in Resources */,
+				80B749A31F3175EE00390F92 /* RM_14@3x.png in Resources */,
+				80790D121F02380600840848 /* Assets.xcassets in Resources */,
+				80B7499D1F3175EE00390F92 /* RM_11@3x.png in Resources */,
+				80B7499B1F3175EE00390F92 /* Contents.json in Resources */,
+				807A6DE11F3DAF170025D2F3 /* 新能源汽车使用与维护2.epub in Resources */,
+				809F76851F4592B90040068D /* 1234456.epub in Resources */,
+				80790D101F02380600840848 /* Main.storyboard in Resources */,
+				80B749CD1F32B0B800390F92 /* video_btn_close@2x.png in Resources */,
+				80B749C61F3175EE00390F92 /* RM_9@2x.png in Resources */,
+				80B7498B1F3175EE00390F92 /* read_bar_2@3x.png in Resources */,
+				80B749951F3175EE00390F92 /* Contents.json in Resources */,
+				80B749AB1F3175EE00390F92 /* RM_17@2x.png in Resources */,
+				80B749D31F32E94C00390F92 /* HYQiH18030F45.ttf in Resources */,
+				80B7498E1F3175EE00390F92 /* read_bar_3@3x.png in Resources */,
+				80B749AA1F3175EE00390F92 /* Contents.json in Resources */,
+				80B749861F3175EE00390F92 /* Contents.json in Resources */,
+				807A6DDE1F3D9D5B0025D2F3 /* 新能源汽车使用与维护(1).epub in Resources */,
+				80B749AF1F3175EE00390F92 /* RM_18@3x.png in Resources */,
+				809F5F0B1F2990B60091F455 /* 为人处世曾国藩.epub in Resources */,
+				80B749901F3175EE00390F92 /* read_bg_0@2x.png in Resources */,
+				80B7498F1F3175EE00390F92 /* Contents.json in Resources */,
+				809F5F0A1F2990B60091F455 /* 这些.epub in Resources */,
+				80B749CE1F32B0B800390F92 /* video_btn_close@3x.png in Resources */,
+				80B749B41F3175EE00390F92 /* RM_3@2x.png in Resources */,
+				80B749931F3175EE00390F92 /* RM_0@2x.png in Resources */,
+				80B7499F1F3175EE00390F92 /* RM_13@2x.png in Resources */,
+				80067EF41F1F483400116B81 /* 张爱玲作品集.epub in Resources */,
+				80B749C01F3175EE00390F92 /* RM_7@2x.png in Resources */,
+				80067ED61F1F09AC00116B81 /* SearchWebView.js in Resources */,
+				80B749D21F32E94C00390F92 /* HYKaiT18030F.ttf in Resources */,
+				80B749BC1F3175EE00390F92 /* Contents.json in Resources */,
+				80B749BE1F3175EE00390F92 /* RM_6@3x.png in Resources */,
+				80B7499E1F3175EE00390F92 /* Contents.json in Resources */,
+				80B749801F3175EE00390F92 /* Contents.json in Resources */,
+				80B749B81F3175EE00390F92 /* RM_4@3x.png in Resources */,
+				809F5F181F29C95A0091F455 /* Ni Zhong Yu.epub in Resources */,
+				80B749B01F3175EE00390F92 /* Contents.json in Resources */,
+				80B749891F3175EE00390F92 /* Contents.json in Resources */,
+				809F5F031F286CF00091F455 /* btn_defaukt_back@2x.png in Resources */,
+				80B749991F3175EE00390F92 /* RM_10@2x.png in Resources */,
+				809F5F001F283E570091F455 /* 测试(1).epub in Resources */,
+				80B749A41F3175EE00390F92 /* Contents.json in Resources */,
+				809F5F041F286CF00091F455 /* btn_defaukt_back@3x.png in Resources */,
+				809F5F151F29B7A40091F455 /* Wei Zhi1.epub in Resources */,
+				80B749BF1F3175EE00390F92 /* Contents.json in Resources */,
+				80067ED81F1F09BD00116B81 /* epubtheme.xml in Resources */,
+				80B749831F3175EE00390F92 /* Contents.json in Resources */,
+				80B749961F3175EE00390F92 /* RM_1@2x.png in Resources */,
+				80B749981F3175EE00390F92 /* Contents.json in Resources */,
+				80B749A71F3175EE00390F92 /* Contents.json in Resources */,
+				80B749BA1F3175EE00390F92 /* RM_5@2x.png in Resources */,
+				80B749C31F3175EE00390F92 /* RM_8@2x.png in Resources */,
+				807A6DE31F3DAF200025D2F3 /* 新能源汽车使用与维护1.epub in Resources */,
+				80B749C21F3175EE00390F92 /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D191F02380600840848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D241F02380600840848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FB966EA8CB179484D4B64C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ePudReaderDemo/Pods-ePudReaderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E052FB4FBB2AC722F48B367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ePudReaderDemo/Pods-ePudReaderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACED38E516FC70B767199929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80790CFE1F02380600840848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80067EE81F1F0C0600116B81 /* JingGeEpubParser.m in Sources */,
+				80067EF71F1F4B6600116B81 /* JingGeEpubPageWebView.m in Sources */,
+				80067EE51F1F0BF100116B81 /* JingGeEpubReaderConfig.m in Sources */,
+				80067F011F20546C00116B81 /* JingGeEpubReaderProgressView.m in Sources */,
+				80790D0A1F02380600840848 /* AppDelegate.m in Sources */,
+				80067EFA1F204DDC00116B81 /* JingGeEpubReaderControlView.m in Sources */,
+				809F5EFE1F25F17B0091F455 /* JingGeEpubReaderCotalogViewCell.m in Sources */,
+				809F5F071F2888CC0091F455 /* JFTextPlayer.m in Sources */,
+				80067EDB1F1F0A5900116B81 /* JingGeEpubReadViewController.m in Sources */,
+				80067EDE1F1F0A8600116B81 /* JingGeEpubReaderPageViewController.m in Sources */,
+				80067EF01F1F302B00116B81 /* JingGeEpubReaderMarkModel.m in Sources */,
+				8098B0C81F2F1668005DF74F /* JingGeEpubReaderInfoModel.m in Sources */,
+				80067EEB1F1F0C8600116B81 /* JingGeEpubReaderModel.m in Sources */,
+				80790D071F02380600840848 /* main.m in Sources */,
+				80B749CA1F31A90B00390F92 /* JingGeEpubReaderColorChoiseCollectionViewCell.m in Sources */,
+				809F5F131F29B3810091F455 /* PlayerViewController.m in Sources */,
+				809F5F0E1F29926A0091F455 /* TableViewController.m in Sources */,
+				809F5EFB1F25E5410091F455 /* JingGeEpubReadCatalogViewController.m in Sources */,
+				8098B0C21F2F15C2005DF74F /* JingGeEpubReaderCatalogModel.m in Sources */,
+				8098B0C51F2F15DC005DF74F /* JingGeEpubReaderItemModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D171F02380600840848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80790D201F02380600840848 /* ePudReaderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D221F02380600840848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80790D2B1F02380600840848 /* ePudReaderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80790D1D1F02380600840848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80790D011F02380600840848 /* ePudReaderDemo */;
+			targetProxy = 80790D1C1F02380600840848 /* PBXContainerItemProxy */;
+		};
+		80790D281F02380600840848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80790D011F02380600840848 /* ePudReaderDemo */;
+			targetProxy = 80790D271F02380600840848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80790D0E1F02380600840848 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80790D0F1F02380600840848 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80790D131F02380600840848 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80790D141F02380600840848 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80790D2D1F02380600840848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80790D2E1F02380600840848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80790D301F02380600840848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94218CFF9799A7B43E53DA7E /* Pods-ePudReaderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 697TSGGHN8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePudReaderDemo/Jg_RspVideoplayer",
+				);
+				INFOPLIST_FILE = ePudReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JingGeKeJi.ePudReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80790D311F02380600840848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCE7E84FB758668767C3AAB /* Pods-ePudReaderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 697TSGGHN8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePudReaderDemo/Jg_RspVideoplayer",
+				);
+				INFOPLIST_FILE = ePudReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JingGeKeJi.ePudReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80790D331F02380600840848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 697TSGGHN8;
+				INFOPLIST_FILE = ePudReaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JingGeKeJi.ePudReaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePudReaderDemo.app/ePudReaderDemo";
+			};
+			name = Debug;
+		};
+		80790D341F02380600840848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 697TSGGHN8;
+				INFOPLIST_FILE = ePudReaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JingGeKeJi.ePudReaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePudReaderDemo.app/ePudReaderDemo";
+			};
+			name = Release;
+		};
+		80790D361F02380600840848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 697TSGGHN8;
+				INFOPLIST_FILE = ePudReaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JingGeKeJi.ePudReaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ePudReaderDemo;
+			};
+			name = Debug;
+		};
+		80790D371F02380600840848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 697TSGGHN8;
+				INFOPLIST_FILE = ePudReaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JingGeKeJi.ePudReaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ePudReaderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80790CFD1F02380600840848 /* Build configuration list for PBXProject "ePudReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80790D2D1F02380600840848 /* Debug */,
+				80790D2E1F02380600840848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80790D2F1F02380600840848 /* Build configuration list for PBXNativeTarget "ePudReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80790D301F02380600840848 /* Debug */,
+				80790D311F02380600840848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80790D321F02380600840848 /* Build configuration list for PBXNativeTarget "ePudReaderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80790D331F02380600840848 /* Debug */,
+				80790D341F02380600840848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80790D351F02380600840848 /* Build configuration list for PBXNativeTarget "ePudReaderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80790D361F02380600840848 /* Debug */,
+				80790D371F02380600840848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80790CFA1F02380600840848 /* Project object */;
+}
